@@ -51,7 +51,7 @@ public class AutocompleteClientesRFC {
 			this.initParamVariables();
 			this.setParamValues(customerName, customerCountry );
 			
-			return this.getResultTables();
+	//		return this.getResultTables();
 			
 			
 		} catch(Exception e){
