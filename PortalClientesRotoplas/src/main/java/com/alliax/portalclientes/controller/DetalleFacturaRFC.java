@@ -49,12 +49,12 @@ public class DetalleFacturaRFC {
 		try {
 			this.initModule();			
 			this.initParamVariables();
-			//this.setParamValues(noPedido,factura);
+			this.setParamValues(noPedido,factura);
 			
 			return this.getResultTables();
 			
 			//Resource
-			//return this.resultados;
+			return this.resultados;
 			
 		} catch(Exception e){
 			logger.error("Error al obtener detalle de factura : " + factura + " del Pedido " + noPedido);
