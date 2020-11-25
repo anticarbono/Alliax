@@ -21,8 +21,8 @@ public class BuscarDestinatarioMercanciaPorPedidoConfig {
 		uno.setColonia("97210 Merida Sin Distrito/colonia");
 		uno.setCodigoPostal("64610");
 		uno.setPoblacion("Poblacion1");
-		uno.setSociedad("Socieda1");
-		uno.setOrganizacionVentas("9874563210");
+		//uno.setSociedad("Socieda1");
+		//uno.setOrganizacionVentas("9874563210");
 		return uno;
 	}
 	

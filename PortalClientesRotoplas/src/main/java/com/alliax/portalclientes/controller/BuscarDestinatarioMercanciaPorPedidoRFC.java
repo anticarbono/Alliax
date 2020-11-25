@@ -27,7 +27,7 @@ public class BuscarDestinatarioMercanciaPorPedidoRFC {
 		try{
 			this.initModule();
 			this.initParamVariables();
-			this.setParamValues(pedido);
+			//this.setParamValues(pedido);
 			return this.getResultTables();
 			
 		} catch(Exception e){

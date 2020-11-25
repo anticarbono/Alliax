@@ -49,7 +49,7 @@ public class DetalleFacturaRFC {
 		try {
 			this.initModule();			
 			this.initParamVariables();
-			this.setParamValues(noPedido,factura);
+			//this.setParamValues(noPedido,factura);
 			
 			return this.getResultTables();
 			
